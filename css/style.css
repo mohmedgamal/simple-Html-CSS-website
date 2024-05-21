@@ -1,0 +1,198 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.clr{
+  clear: both;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  background-color: #f7931e;
+  
+}
+nav{
+  width: 100%;
+  position: fixed; z-index: 5;
+}
+/* uncomment the background */
+
+.logo{
+  float: left;
+  width: 20%;
+  background-color: #fff;
+}
+.logo img{
+  width: 100%; 
+}
+.navs{
+  float: left;
+  width: 60%;
+  padding-top: 30px;
+  /* margin-left: 20%; */
+  padding-left: 15%;
+}
+.navs ul li a{ 
+  color: #fff;
+  font-weight: 900;
+  font-size: 28px;
+  float: left;
+  padding-left: 5%;
+}
+.body_container{
+  /* background-color: #f7931e; */
+  margin: 0 10%;
+  width: 80%;
+  /* margin-top: 130px ; */
+  position: absolute;
+  top: 130px;
+}
+.home{
+  background-image: url(../img/back.png);
+  background-position: center center ;
+  block-size: cover;
+  height:100vh ;
+}
+.home h1{
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+padding-top: 200px;
+}
+.home p{
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+padding-top: 50px;
+}
+#homel h2{
+  text-align: center;
+  color: #000;
+  font-size: 50px;
+  padding: 50px 0;
+}
+.cardsp{
+  background-color: #f7931e;
+  width: 25%;
+  float: left;
+}
+
+/* comment the background */
+.cardsp .card{
+  /* background-color: #c90606;   */
+  margin: 7px;
+}
+.card img{
+  width: 100%;
+}
+#products{
+  margin-top: 50px;
+}
+#products h2{
+  padding: 0 0 50px ;
+  text-align: center;
+  color: #000;
+  font-size: 50px;
+}
+.card1p{
+  width: 100%;
+  float: left;
+}
+.card1 img{
+  width: 100%;
+}
+.card1{
+  padding: 0 10%;
+  border: #f7931e solid 10px;
+}
+
+.cparent{
+  /* margin-top: 50px; */
+  width: 33.333%;
+  float: left;
+  /* background-color: #f7931e; */
+}
+.product .card{
+  margin: 0 7px;
+}
+.product .card p {
+  margin: 15px 0;
+}
+.product .card h3 {
+  margin: 10px 0;
+}
+.product .card button{
+  width: 40%;
+  margin: 0 30%;
+  color: #f7931e; 
+  padding: 5px 0 ;
+  background-color: #fff;
+}
+#about
+{
+  margin-top:100px ;
+}
+.image{
+  width: 50%;
+  float: right;
+}
+.image img{
+  width: 100%;
+}
+.content h3{
+  padding-top: 20px;
+  margin: 40px 0;
+}
+.content li{
+  padding: 20px;
+}
+footer{
+  margin-top: 50px;
+  padding-top: 40px;
+  background-color: #f7931e; 
+}
+.cat{
+  float: left;
+  width: 30%;
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+.contacts{
+  float: left;
+  width: 30%;
+}
+.News{
+  float: left;
+  width: 30%;
+}
+.cat h3{
+  padding-bottom: 10px;
+}
+.cat li{
+  padding: 5px;
+}
+.contacts h3{
+  padding-bottom: 10px;
+
+}
+.contacts li{
+  padding: 5px;
+}
+.News h3{
+  padding-bottom: 30px;
+}
+.News button{
+  margin: 5px;
+  padding: 3px 10px;
+}
+#mail{
+  width: 50%;
+}
+footer h4{
+  text-align: center;
+  background-color: #fff;
+  color: #f7931e;
+  padding: 10px 0;
+}
